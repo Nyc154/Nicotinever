@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+html{
+    font-size: 10px;
+    color: #fff;
+}
+body{
+    background-color: #000000d8;
+}
+
+.card-login{
+    background-color: #001526;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card-login img{
+    rotate: 180deg;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-left: .2%;
+    border-radius: 50%;
+}
+
+.card-login .titulo{
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.card-login .subtitulo{
+    margin-bottom: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.card-login span{
+    margin-bottom: 20px;
+    color: #28C892;
+    text-align: center;
+}
+
+
+.card-login input[type="text"], .card-login input[type="password"]{
+    width: 100%;
+    line-height: 40px;
+    border: none;
+    border-radius: 25px;
+    padding: 0 20px;
+    color: #000000;
+    background-color: #ffffff9f;
+}
+
+.card-login input[type="text"]{
+    margin-bottom: 20px;
+}
+
+.card-login input[type="password"]{
+    margin-bottom: 20px;
+}
+
+
+.card-login a{
+    color: #28C892;
+    margin-left: 5px ;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card-login .check{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    
+}
+.card-login input[type="submit"]{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #28C892;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.card-login input[type="submit"]:hover{
+    transform: scale(1.05);
+    box-shadow: #28c89398;
+    transition: 0.2s;
+}
+
+.card-login p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .card-login{
+        align-content: center;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+}
