@@ -97,12 +97,12 @@ body{
     border: none;
     font-weight: bold;
     color: #fff;
+    transition: 0.2s;
 }
 
 .card-login input[type="submit"]:hover{
     transform: scale(1.05);
     box-shadow: #28c89398;
-    transition: 0.2s;
 }
 
 .card-login p{

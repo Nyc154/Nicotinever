@@ -59,13 +59,13 @@ nav{
     cursor: pointer;
 }
 
-.profile-icon{
-    transition: transform 0.3s ease;
-    margin-left: 30px;
-}
-
 .profile-icon:hover{
     transform: scale(1.2);
+}
+
+.profile-icon{
+    margin-left: 30px;
+    transition: transform 0.3s ease;
 }
 
 .search-box{
