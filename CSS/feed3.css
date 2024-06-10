@@ -126,7 +126,7 @@ nav{
     background-color: #001526;
     flex-basis: 25%;
     position: sticky;
-    top: 70px;
+    top: 0px;
     align-self: flex-start;
     height: 100%;
     padding: 20px;
@@ -313,3 +313,85 @@ nav{
 .online-list p{
     margin-left: 10px;
 }
+
+.post-container{
+    width: 100%;
+    background-color: #001526 ;
+    border-radius: 6px;
+    padding: 20px;
+    color: white;
+    margin: 20px 0;
+}
+
+.user-profile span{
+    font-size: 13px;
+    color: #28c89393;
+}
+
+.post-text{
+    color: white;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.post-text span{
+    color: #28c89393;
+    font-weight: 500;
+}
+.post-text a{
+    color: #28c89393;
+    font-weight: 500;
+}
+
+.post-text img{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.post-roll{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-post-icon img{
+    margin-right: 10px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.profile-icon p{
+    display: block;
+
+}
+
+.profile-post-icon{
+    display: flex;
+    align-items: center;
+}
+
+.act-icons i{
+    color: #28c89393;
+}
+
+.act-icons div{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.post-profile-icon{
+    display: flex;
+    align-items: center;
+}
+
+.post-profile-icon img{
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
