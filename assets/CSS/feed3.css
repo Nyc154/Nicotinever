@@ -14,7 +14,7 @@ body{
     background-color: #000000d8;
 }
 
-nav{
+.web{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -116,7 +116,7 @@ nav{
     position: sticky;
     top: 0px;
     align-self: flex-start;
-    height: 100%;
+    height: 100vh;
     padding: 20px;
 }
 
@@ -128,7 +128,7 @@ nav{
     position: sticky;
     top: 0px;
     align-self: flex-start;
-    height: 100%;
+    height: 100vh;
     padding: 20px;
 
 }
@@ -394,4 +394,95 @@ nav{
     margin-right: 5px;
 }
 
+.mobile{
+    display: none;
+}
 
+@media screen and (max-width: 768px){
+
+    .mobile{
+        background-color: #001526;
+        display: block;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 9999;
+        padding-bottom: 5px;
+    }
+
+    .main-content{
+        padding-right: 30px;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+
+    .paginas {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+    }
+
+    .paginas>li {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .paginas>li:first-child {
+        padding-top: 3px;
+
+    }
+
+    #pagina-alvo {
+        width: 47px;
+        height: 47px;
+    }
+
+    .mobile i{
+        color: #88EBC4;
+        font-size: 49px;
+    }
+
+    .barra {
+        background-color: #02736483;
+        position: relative;
+        height: 3px;
+    } 
+
+    .select {
+        background-color: #28C892;
+        position: absolute;
+        left: 40%;
+        width: 20%;
+        height: 3px;
+        transition: left 0.5s ease;
+    }
+
+
+    li:hover>#pagina-alvo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .mobile i:hover {
+        font-size: 52px;
+    }
+
+    .web{
+        display: none;
+    }
+
+    .left-sidebar{
+        display: none;
+    }
+
+    .right-sidebar{
+        display: none;
+    }
+}
