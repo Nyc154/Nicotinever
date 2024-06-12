@@ -662,6 +662,25 @@ body{
     align-items: center;
 }
 
+.cabecalho i{
+    color: #88EBC4;
+    font-size: 40px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.cabecalho i:hover{
+    transform: scale(1.1);
+}
+
+.cabecalho img{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .2s;
+}
+
+
 .logo-icones {
     display: flex;
     align-items: center;
@@ -769,4 +788,5 @@ body{
 .i-header {
     color: #88EBC4;
 }
+
 /* --------------------- */
