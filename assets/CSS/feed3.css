@@ -217,7 +217,7 @@ body{
 
 .post-input-container textarea{
     resize: none;
-    width: 350px;
+    width: 100%;
     color: aliceblue;
     padding: 10px;
     border: none;
@@ -592,7 +592,6 @@ body{
 }
 
 .update-password{
-    margin: 30px 0;
     box-shadow: #28c89383 0px 0px 10px 0px;
     color: #28C892;
     background-color: #001526;
@@ -623,4 +622,34 @@ body{
     font-weight: bold;
     color: #fff;
     transition: 0.2s;
+}
+
+.btn-foto{
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-foto i{
+    font-size: 20px;
+    color: #28C892;
+    margin-right: 10px;
+
+}
+
+.btn-foto:hover{
+    transform: scale(1.1);
+}
+
+.btn-publicar{
+    background-color:  #28C892;
+    cursor: pointer;
+    transition: .2s;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-left: 300px;
+}
+
+.btn-publicar:hover{
+    transform: scale(1.1);
 }

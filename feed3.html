@@ -64,8 +64,9 @@
                 <div class="post-input-container">
                     <textarea rows="3" placeholder="O que Você está pensando?"></textarea>
                     <div class="add-post-links">
-                        <a href="#"><i class="bi bi-camera-video-fill"></i>Video</a>
-                        <a href="#"><i class="bi bi-camera-fill"></i>Foto</a>
+                        <input type="file" id="file" style="display: none;" accept="image/jpeg, image/png" ></input>
+                        <label for="file" class="btn-foto"><i class="bi bi-camera-fill"></i></label>
+                        <input type="submit" value="Publicar" class="btn-publicar">
                     </div>
                 </div>
 
