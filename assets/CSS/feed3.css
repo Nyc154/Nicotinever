@@ -418,7 +418,7 @@ body{
     }
 
     .main-content{
-        padding-right: 30px;
+        padding-right: 0px;
         align-items: center;
         justify-content: center;
         padding-bottom: 40px;
@@ -647,7 +647,7 @@ body{
     border: none;
     border-radius: 20px;
     padding: 10px 10px;
-    margin-left: 300px;
+    margin-left: auto;   
 }
 
 .btn-publicar:hover{
