@@ -35,5 +35,37 @@
     </nav>
 
     <div class="main-info">
-        
+
+        <div class="profile-image">
+            <h1>Atualize a sua foto de perfil.</h1>
+            <p>Escolha uma foto de perfil que mostre o seu rosto.</p>
+            <img src="assets/images/user-profile.png" for="perfil-foto" alt="">
+            <input type="file" id="file" style="display: none;" accept="image/jpeg, image/png" ></input>
+            <label for="file" class="btn">Escolher foto</label>
+        </div>
+
+        <div class="profile-info">
+            <h1>Informações da conta</h1>
+            <p>Atuialize o seu nome de usuário e e-mail.</p>
+
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name"></input>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email"></input>
+            <input type="submit" value="Salvar">
+
+        </div>
+
+        <div class="update-password">
+            <h1>Atualize a sua senha</h1>
+            <p>Atualize sua senha e mantenha sua segurança</p>
+            <label for="atual">Senha atual.</label>
+            <input type="password" id="atual" name="atual"></input>
+            <label for="new">Nova senha</label>
+            <input type="password" id="new" name="new"></input>
+            <label for="confirm">Confirme a nova senha</label>
+            <input type="password" name="confirm" id="confirm"></input>
+            <input type="submit" value="Salvar">
+        </div>
+
     </div>

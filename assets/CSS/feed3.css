@@ -59,6 +59,7 @@ body{
 }
 
 .profile-icon img{
+    border: #28C892 3px solid;
     width: 35px;
     border-radius: 50%;
     margin-right: 20px;
@@ -108,6 +109,7 @@ body{
 }
 
 .left-sidebar{
+    box-shadow: #28c89383 0px 0px 10px 0px;
     border-color: aliceblue;
     color: #28c89393;
     border-radius: 20px;
@@ -121,6 +123,7 @@ body{
 }
 
 .right-sidebar{
+    box-shadow: #28c89383 0px 0px 10px 0px;
     color: #28c89393;
     border-radius: 20px;
     background-color: #001526;
@@ -173,6 +176,7 @@ body{
 }
 
 .write-post-container{
+    box-shadow: #28c89383 0px 0px 10px 0px;
     margin: 0 10px;
     margin-top: 10px;
     background-color: #001526;
@@ -306,6 +310,8 @@ body{
 }
 
 .online-list img{
+    border: #28C892 2px solid;
+    
     width: 40px;
     border-radius: 50%;
 }
@@ -485,4 +491,136 @@ body{
     .right-sidebar{
         display: none;
     }
+}
+
+
+/* profile-info */
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.profile-image{
+    box-shadow: #28c89383 0px 0px 10px 0px;
+    color: #28C892;
+    background-color: #001526;
+    border-radius: 20px;
+    height: 300px;
+    width: 80vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 20px 40px;
+}
+
+.main-info p{
+    color: white;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.main-info h1{
+    color: #28C892;
+    font-size: 30px;
+    margin: 0;
+}
+
+.profile-image img{
+    border: #28C892 3px solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #28C892;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #28C892;
+}
+
+.profile-info{
+    margin: 30px 0;
+    box-shadow: #28c89383 0px 0px 10px 0px;
+    color: #28C892;
+    background-color: #001526;
+    border-radius: 20px;
+    height: 350px;
+    width: 80vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 20px 40px;
+
+}
+
+.profile-info label{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.main-info label{
+    display: block;
+}
+
+.main-info input[type="text"], .main-info input[type="password"], .main-info input[type="email"]{
+    width: 50%;
+    line-height: 40px;
+    border: none;
+    border-radius: 25px;
+    padding: 0 20px;
+    color: #000000;
+    background-color: #ffffff9f;
+    margin-bottom: 20px ;
+}
+
+.update-password{
+    margin: 30px 0;
+    box-shadow: #28c89383 0px 0px 10px 0px;
+    color: #28C892;
+    background-color: #001526;
+    border-radius: 20px;
+    height: 430px;
+    width: 80vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 20px 40px;
+}
+
+.update-password label{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.main-info input[type="submit"]{
+    cursor: pointer;
+    display: block;
+    width: 20%;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #28C892;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.2s;
 }
